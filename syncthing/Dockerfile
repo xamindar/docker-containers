@@ -9,7 +9,6 @@ COPY install.sh /tmp/
 COPY supervisord.conf /etc/
 # syncthing program launch file for supervisor
 COPY syncthing.conf /etc/supervisor.d/
-COPY syncthing.old /opt/
 # Run Install script
 RUN chmod +x /tmp/install.sh && /bin/bash /tmp/install.sh && rm /tmp/install.sh
 
