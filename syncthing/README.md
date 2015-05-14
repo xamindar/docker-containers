@@ -13,9 +13,9 @@ docker run -d --name="Syncthing" \
       -v "/mnt/user/appdata/syncthing":"/config":rw \
       -v "/mnt/user/syncthing":"/syncfolders":rw \
       xamindar/syncthing
-```
+
 Or:
-```
+
 docker run -d --name="Syncthing" \
       --net="host" \
       -v "/mnt/user/appdata/syncthing":"/config":rw \ 

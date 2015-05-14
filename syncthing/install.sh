@@ -27,13 +27,10 @@ else
   exit 0
 fi
 
-# set ownership
-chown -R nobody.users /config
-chown -R nobody.users /syncfolders
-#chown -R nobody.users /opt/syncthing
+# set permissions
+chown -R nobody.users /opt/syncthing
 
 # Clean up
 yes | pacman -Scc
 rm -rf /usr/share/man/*
-rm -rf /tmp/*
 
