@@ -8,7 +8,8 @@
     Syncthing replaces proprietary sync and cloud services with something open, trustworthy and decentralized. Your data is your data alone and you deserve to choose where it is stored, if it is shared with some third party and how it's transmitted over the Internet.[br][br]
     [b][span style='color: #E80000;']Directions:[/span][/b][br]
     [b]/config[/b] : set this path to where you wish Syncthing to store it's configuration.[br]
-    [b]/syncfolders[/b] : set this path to folders you wish Syncthing to share/sync.[br]
+    [b]/syncfolders[/b] : set this path to folders you wish Syncthing to share/sync.[br][br]
+    [b]Network type:[/b] set to bridge for more secure port mappings, set to host if you need upnp to work.[br]
   </Description>
   <Registry>https://registry.hub.docker.com/u/xamindar/syncthing/</Registry>
   <Repository>xamindar/syncthing</Repository>
@@ -21,7 +22,7 @@
     <Publish>
       <Port>
         <HostPort>8384</HostPort>
-        <ContainerPort>8080</ContainerPort>
+        <ContainerPort>8384</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
       <Port>
