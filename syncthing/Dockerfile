@@ -2,6 +2,9 @@
 FROM xamindar/archlinux-base:2015-05-13
 MAINTAINER xamindar <junkxamindar@gmail.com>
 
+# Environment variables
+ENV HOME /syncfolders
+
 # Copy additional files to container
 # install.sh script
 COPY install.sh /tmp/
