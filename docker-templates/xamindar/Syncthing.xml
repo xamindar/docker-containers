@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
+  <Beta>False</Beta>
+  <Category>Backup: Cloud:</Category>
   <Name>Syncthing</Name>
   <Overview>
     Syncthing replaces proprietary sync and cloud services with something open, trustworthy and decentralized. Your data is your data alone and you deserve to choose where it is stored, if it is shared with some third party and how it's transmitted over the Internet.
@@ -54,3 +56,4 @@
   <Banner>http://i.imgur.com/THkgyoC.png</Banner>
   <Icon>http://i.imgur.com/xTw0Ci8.png</Icon>
 </Container>
+
