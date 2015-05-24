@@ -14,6 +14,7 @@
     [b]Network type:[/b] set to bridge for more secure port mappings, set to host if you need upnp to work.[br]
   </Description>
   <Registry>https://registry.hub.docker.com/u/xamindar/syncthing/</Registry>
+  <GitHub>https://github.com/xamindar/docker-containers/tree/master/syncthing</GitHub>
   <Repository>xamindar/syncthing</Repository>
   <Support>http://lime-technology.com/forum/index.php?topic=39910</Support>
   <BindTime>true</BindTime>
@@ -39,6 +40,12 @@
       </Port>
     </Publish>
   </Networking>
+  <Environment>
+    <Variable>
+      <Name></Name>
+      <Value></Value>
+    </Variable>
+  </Environment>    
   <Data>
     <Volume>
       <HostDir>/mnt/user/appdata/syncthing</HostDir>

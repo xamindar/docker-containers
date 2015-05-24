@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Beta>True</Beta>
+  <Category></Category>
+  <Name>Quassel-core</Name>
+  <Overview>
+	Quassel IRC is a modern, cross-platform, distributed IRC client based on the Qt4 framework.    
+  </Overview>
+  <Description>
+    Quassel IRC is a modern, cross-platform, distributed IRC client, meaning that one (or multiple) client(s) can attach to and detach from a central core -- much like the popular combination of screen and a text-based IRC client such as WeeChat, but graphical. In addition to this unique feature, we aim to bring a pleasurable, comfortable chatting experience to all major platforms (including Linux®, Windows®, and MacOS X® as well as Android smartphones), making communication with your peers not only convenient, but also ubiquitous available. 
+    [br][br]
+    [b][span style='color: #E80000;']Directions:[/span][/b][br]
+    [b]/var/lib/quassel[/b] : set this path to where you wish Quassel to store its configuration.[br]
+    [b]Set the environment variables to anything you want. They are used to create the SSL certificate upon first run of the docker.[b]	
+  </Description>
+  <Registry>https://registry.hub.docker.com/u/xamindar/quassel-core/</Registry>
+  <GitHub>https://github.com/xamindar/docker-containers/tree/master/quassel-core</GitHub>
+  <Repository>xamindar/quassel-core</Repository>
+  <Support>http://lime-technology.com/forum/index.php?topic=39910</Support>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>4242</HostPort>
+        <ContainerPort>4242</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name>SSL_COUNTRY</Name>
+      <Value>WE</Value>
+    </Variable>
+    <Variable>
+      <Name>SSL_STATE</Name>
+      <Value>Kings Landing</Value>
+    </Variable>
+    <Variable>
+      <Name>SSL_LOCATION</Name>
+      <Value>Castle</Value>
+    </Variable>
+    <Variable>
+      <Name>SSL_ORG</Name>
+      <Value>Stark</Value>
+    </Variable>
+    <Variable>
+      <Name>SSL_GROUP</Name>
+      <Value>Bannermen</Value>
+    </Variable>
+    <Variable>
+      <Name>SSL_NAME</Name>
+      <Value>Bob</Value>
+    </Variable>
+     <Variable>
+      <Name>SSL_EMAIL</Name>
+      <Value>unraid@unraid.org</Value>
+    </Variable>
+  </Environment>    
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/quasselcore</HostDir>
+      <ContainerDir>/var/lib/quassel</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version></Version>
+  <Banner>http://i.imgur.com/Y7Rx3H1.png</Banner>
+  <Icon>https://i.imgur.com/UM4EqsF.png</Icon>
+</Container>
+
