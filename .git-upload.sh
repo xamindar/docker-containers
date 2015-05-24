@@ -1,3 +1,3 @@
 git add .
-git commit -m "Created new Quassel-core Docker and other minor updates"
+git commit -m "Corrected supervisord pid file location"
 git push origin master
