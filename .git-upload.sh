@@ -1,3 +1,3 @@
 git add .
-git commit -m "Corrected supervisord pid file location"
+git commit -m "Redesigned startup order"
 git push origin master

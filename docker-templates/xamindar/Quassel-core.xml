@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Beta>True</Beta>
-  <Category></Category>
+  <Category>Network:Other</Category>
   <Name>Quassel-core</Name>
   <Overview>
 	Quassel IRC is a modern, cross-platform, distributed IRC client based on the Qt4 framework.    

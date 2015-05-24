@@ -19,15 +19,15 @@ ENV SSL_EMAIL unraid@unraid.org
 # Copy additional files to container
 # install.sh script
 COPY install.sh /tmp/
-# create ssl certificate and start quassel script.
-#COPY create-cert.sh /home/
-COPY start-quassel.sh /home/
-RUN chmod +x /home/*
 # Custom supervisord.conf file for docker container
 COPY supervisord.conf /etc/
+# create ssl certificate and start quassel scripts.
+COPY create-cert.sh /home/
+COPY create-cert.conf /etc/supervisor.d/
 # quassel-core program launch file for supervisor
 COPY quassel-core.conf /etc/supervisor.d/
 # Run Install script
+RUN chmod +x /home/*
 RUN chmod +x /tmp/install.sh && /bin/bash /tmp/install.sh && rm /tmp/install.sh
 
 # Volumes
