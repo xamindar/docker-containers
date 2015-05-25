@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Beta>True</Beta>
-  <Category>Network:Other</Category>
+  <Category>Network:Messenger</Category>
   <Name>Quassel-core</Name>
   <Overview>
 	Quassel IRC is a modern, cross-platform, distributed IRC client based on the Qt4 framework.    
@@ -63,7 +63,7 @@
   <Data>
     <Volume>
       <HostDir>/mnt/user/appdata/quasselcore</HostDir>
-      <ContainerDir>/var/lib/quassel</ContainerDir>
+      <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
