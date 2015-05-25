@@ -33,17 +33,11 @@ else
 		-subj "/C=$COUNTRY/ST=$STATE/L=$LOCATION/O=$ORG/OU=$GROUP/CN=$NAME/emailAddress=$EMAIL"
 		#launch quassel-core
 		/usr/bin/supervisorctl start quasselcore
-		#/usr/sbin/quasselcore --listen=0.0.0.0 --configdir=$QUASSEL_CONFIG &
 	else
 		echo "$QUASSEL_CONFIG/quasselCert.pem already exists, not recreated."
 		 #launch quassel-core
 		/usr/bin/supervisorctl start quasselcore
-		#/usr/sbin/quasselcore --listen=0.0.0.0 --configdir=$QUASSEL_CONFIG &
 
 	fi
 fi
-
-##launch quassel-core
-#/usr/sbin/quasselcore --listen=0.0.0.0 --configdir=$QUASSEL_CONFIG
-
 
