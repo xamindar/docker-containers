@@ -32,11 +32,11 @@ else
 		-out $QUASSEL_CONFIG/quasselCert.pem \
 		-subj "/C=$COUNTRY/ST=$STATE/L=$LOCATION/O=$ORG/OU=$GROUP/CN=$NAME/emailAddress=$EMAIL"
 		#launch quassel-core
-		/usr/bin/supervisorctl start quasselcore
+		/usr/bin/supervisorctl -c /etc/supervisord.conf start quasselcore
 	else
 		echo "$QUASSEL_CONFIG/quasselCert.pem already exists, not recreated."
 		 #launch quassel-core
-		/usr/bin/supervisorctl start quasselcore
+		/usr/bin/supervisorctl -c /etc/supervisord.conf start quasselcore
 
 	fi
 fi
