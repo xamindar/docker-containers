@@ -1,3 +1,3 @@
 git add .
-git commit -m "Remove beta tag from template xml"
+git commit -m "update supervisord.conf for supervisorctl"
 git push origin master
