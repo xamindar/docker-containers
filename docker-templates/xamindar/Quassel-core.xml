@@ -10,8 +10,9 @@
     Quassel IRC is a modern, cross-platform, distributed IRC client, meaning that one (or multiple) client(s) can attach to and detach from a central core -- much like the popular combination of screen and a text-based IRC client such as WeeChat, but graphical. In addition to this unique feature, we aim to bring a pleasurable, comfortable chatting experience to all major platforms (including Linux®, Windows®, and MacOS X® as well as Android smartphones), making communication with your peers not only convenient, but also ubiquitous available. 
     [br][br]
     [b][span style='color: #E80000;']Directions:[/span][/b][br]
-    [b]/var/lib/quassel[/b] : set this path to where you wish Quassel to store its configuration.[br]
-    [b]Set the environment variables to anything you want. They are used to create the SSL certificate upon first run of the docker.[b]	
+    [b]/config[/b] : set this path to where you wish Quassel to store its configuration.[br]
+    [b]Turn on "Advanced View" in the upper right to show Environment Variables. Set the environment variables to anything you want. They are used to create the SSL certificate upon first run of the docker.[b][br][br]
+	Once this docker is running, connect to it with a Quassel Client and finish configuring it.
   </Description>
   <Registry>https://registry.hub.docker.com/u/xamindar/quassel-core/</Registry>
   <GitHub>https://github.com/xamindar/docker-containers/tree/master/quassel-core</GitHub>
