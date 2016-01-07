@@ -23,5 +23,5 @@ VOLUME /syncfolders
 # Ports in use by this application.
 EXPOSE 8384 22000/tcp 21027/udp
 
-# run supervisor
+# run supervisord
 CMD ["supervisord", "-c", "/etc/supervisord.conf", "-n"]
