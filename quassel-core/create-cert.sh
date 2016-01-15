@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# First, prepate the SSL certificate. Gather variables.
+# First, prepare the SSL certificate. Gather variables.
 COUNTRY=${SSL_COUNTRY:-US}
 STATE=${SSL_STATE:-house}
 LOCATION=${SSL_LOCATION:-room}
