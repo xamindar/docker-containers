@@ -12,14 +12,14 @@
     [b]/config[/b] : set this path to where you wish Syncthing to store its configuration.[br]
     [b]/syncfolders[/b] : set this path to folders you wish Syncthing to share/sync.[br][br]
     [b]Network type:[/b] set to bridge for more secure port mappings, set to host if you need upnp to work.[br]
-    [b]Port number explanations: 
-    [b] 8384 - syncthing webgui
-    [b] 22000 and 21027 - syncthing
-    [b] 8443 - discovery server (only needed if enabled)
-    [b] 22067 and 22070 relay server (only needed if enabled)
-By default, the syncthing service is on while the discovery and relay services are off. This is a default syncthing setup. If you want the discovery and/or relay enabled, see the corresponding environment variables under the advanced settings.
-    [b]discovery documentation: http://docs.syncthing.net/users/discosrv.html
-    [b]relay documentation: http://docs.syncthing.net/users/relaying.html
+    [b]Port number explanations:[/b][br]
+    [b] 8384[/b] - syncthing webgui[br]
+    [b] 22000 and 21027[/b] - syncthing[br]
+    [b] 8443 - discovery[/b] - server (only needed if enabled)[br]
+    [b] 22067 and 22070[/b] - relay server (only needed if enabled)[br]
+By default, the syncthing service is on while the discovery and relay services are off. This is a default syncthing setup. If you want the discovery and/or relay enabled, see the corresponding environment variables under the advanced settings.[br]
+    discovery documentation: http://docs.syncthing.net/users/discosrv.html[br]
+    relay documentation: http://docs.syncthing.net/users/relaying.html[br]
   </Description>
   <Registry>https://registry.hub.docker.com/u/xamindar/syncthing/</Registry>
   <GitHub>https://github.com/xamindar/docker-containers/tree/master/syncthing</GitHub>
