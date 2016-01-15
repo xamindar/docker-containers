@@ -15,8 +15,8 @@
     [b]Port number explanations:[/b][br]
     [b] 8384[/b] - syncthing webgui[br]
     [b] 22000 and 21027[/b] - syncthing[br]
-    [b] 8443 - discovery[/b] - server (only needed if enabled)[br]
-    [b] 22067 and 22070[/b] - relay server (only needed if enabled)[br]
+    [b] 8443[/b] - discovery server [span style='color: #E80000;'](be sure to add a port map for this if discovery server is enabled)[/span][br]
+    [b] 22067 and 22070[/b] - relay server [span style='color: #E80000;'](be sure to add a port map for these if relay server is enabled)[/span][br]
 By default, the syncthing service is on while the discovery and relay services are off. This is a default syncthing setup. If you want the discovery and/or relay enabled, see the corresponding environment variables under the advanced settings.[br]
     discovery documentation: http://docs.syncthing.net/users/discosrv.html[br]
     relay documentation: http://docs.syncthing.net/users/relaying.html[br]
@@ -45,21 +45,6 @@ By default, the syncthing service is on while the discovery and relay services a
         <HostPort>21027</HostPort>
         <ContainerPort>21027</ContainerPort>
         <Protocol>udp</Protocol>
-      </Port>
-      <Port>
-        <HostPort></HostPort>
-        <ContainerPort>8443</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-      <Port>
-        <HostPort></HostPort>
-        <ContainerPort>22067</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-      <Port>
-        <HostPort></HostPort>
-        <ContainerPort>22070</ContainerPort>
-        <Protocol>tcp</Protocol>
       </Port>
     </Publish>
   </Networking>
