@@ -18,8 +18,8 @@
     [b] 8443[/b] - discovery server [span style='color: #E80000;'](be sure to add a port map for this if discovery server is enabled)[/span][br]
     [b] 22067 and 22070[/b] - relay server [span style='color: #E80000;'](be sure to add a port map for these if relay server is enabled)[/span][br]
 By default, the syncthing service is on while the discovery and relay services are off. This is a default syncthing setup. If you want the discovery and/or relay enabled, see the corresponding environment variables under the advanced settings.[br]
-    discovery documentation: http://docs.syncthing.net/users/discosrv.html[br]
-    relay documentation: http://docs.syncthing.net/users/relaying.html[br]
+    discovery documentation: [url]http://docs.syncthing.net/users/discosrv.html[/url][br]
+    relay documentation: [url]http://docs.syncthing.net/users/relaying.html[/url][br]
   </Description>
   <Registry>https://registry.hub.docker.com/u/xamindar/syncthing/</Registry>
   <GitHub>https://github.com/xamindar/docker-containers/tree/master/syncthing</GitHub>
