@@ -28,8 +28,10 @@ COPY prep-service.conf /etc/supervisor.d/
 # syncthing program launch file for supervisor
 COPY syncthing.conf /etc/supervisor.d/
 # discoversrv program launch file for supervisor
+COPY discosrv.sh /home/
 COPY discosrv.conf /etc/supervisor.d/
 # relaysrv program launch file for supervisor
+COPY relaysrv.sh /home/
 COPY relaysrv.conf /etc/supervisor.d/
 # Run Install script
 RUN chmod +x /home/*
