@@ -19,7 +19,7 @@
     [b] 22067 and 22070[/b] - relay server [span style='color: #E80000;'](be sure to add a port map for these if relay server is enabled)[/span][br]
 	By default, the syncthing service is on while the discovery and relay services are off. This is a default syncthing setup.[br][br] 
 	[b][span style='color: #E80000;']Advanced Features:[/span][/b][br]
-	If you want the discovery and/or relay servers enabled, see the corresponding environment variables under the advanced settings to "yes". Also be sure to add the port mappings needed.[br]
+	To enable the discovery and/or relay servers, set the corresponding environment variables under the advanced settings to "yes". Also be sure to add the port mappings needed.[br]
 	After the docker has been started, view the log to find out the device id of the discovery/relay servers.[br]
     Discovery documentation: [b]http://docs.syncthing.net/users/discosrv.html[/b][br]
     Relay documentation: [b]http://docs.syncthing.net/users/relaying.html[/b]
