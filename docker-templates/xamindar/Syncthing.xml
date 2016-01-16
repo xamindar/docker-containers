@@ -85,10 +85,6 @@ By default, the syncthing service is on while the discovery and relay services a
       <Name>RELAY_PING_INTERVAL</Name>
       <Value>1m0s</Value>
     </Variable>
-    <Variable>
-      <Name>RELAY_EXT_ADDRESS</Name>
-      <Value>:22067</Value>
-    </Variable>
   </Environment>    
   <Data>
     <Volume>
