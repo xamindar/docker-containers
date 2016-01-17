@@ -31,11 +31,11 @@
 	- Added changelog and date to template
 
 	[font size=4]2016-01-16[/font]
-	- Updated syncthing
+	- Updated syncthing to v0.12.14
 	- added discovery server options
 	- added relay server options
 	- major update to template and docker to impliment these features
-	- corrected syncthing port mappings to bew ports
+	- corrected syncthing port mappings to new ports
   </Changes>
   <Registry>https://registry.hub.docker.com/u/xamindar/syncthing/</Registry>
   <GitHub>https://github.com/xamindar/docker-containers/tree/master/syncthing</GitHub>
