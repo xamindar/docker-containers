@@ -2,6 +2,7 @@
 <Container>
   <Beta>False</Beta>
   <Category>Backup: Cloud:</Category>
+  <Date>2016-01-17</Date>
   <Name>Syncthing</Name>
   <Overview>
     Syncthing replaces proprietary sync and cloud services with something open, trustworthy and decentralized. Your data is your data alone and you deserve to choose where it is stored, if it is shared with some third party and how it's transmitted over the Internet.
@@ -21,9 +22,21 @@
 	[b][span style='color: #E80000;']Advanced Features:[/span][/b][br]
 	To enable the discovery and/or relay servers, set the corresponding environment variables under the advanced settings to "yes". Also be sure to add the port mappings needed.[br]
 	After the docker has been started, view the log to find out the device id of the discovery/relay servers.[br]
-    Discovery documentation: [b]http://docs.syncthing.net/users/discosrv.html[/b][br]
-    Relay documentation: [b]http://docs.syncthing.net/users/relaying.html[/b]
+    Discovery documentation: [b]<http://docs.syncthing.net/users/discosrv.html>[/b][br]
+    Relay documentation: [b]<http://docs.syncthing.net/users/relaying.html>[/b]
   </Description>
+  <Changes>
+	[center][font size=5]Syncthing Change Log[/font][/center]
+	[font size=4]2016-01-17[/font]
+	- Added changelog and date to template
+
+	[font size=4]2016-01-16[/font]
+	- Updated syncthing
+	- added discovery server options
+	- added relay server options
+	- major update to template and docker to impliment these features
+	- corrected syncthing port mappings to bew ports
+  </Changes>
   <Registry>https://registry.hub.docker.com/u/xamindar/syncthing/</Registry>
   <GitHub>https://github.com/xamindar/docker-containers/tree/master/syncthing</GitHub>
   <Repository>xamindar/syncthing</Repository>
