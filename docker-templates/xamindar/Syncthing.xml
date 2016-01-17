@@ -22,7 +22,7 @@
 	[b][span style='color: #E80000;']Advanced Features:[/span][/b][br]
 	To enable the discovery and/or relay servers, set the corresponding environment variables under the advanced settings to "yes". Also be sure to add the port mappings needed.[br]
 	After the docker has been started, view the log to find out the device id of the discovery/relay servers.[br]
-    Discovery documentation: [b]<http://docs.syncthing.net/users/discosrv.html>[/b][br]
+    Discovery documentation: <http://docs.syncthing.net/users/discosrv.html>[br]
     Relay documentation: [b]<http://docs.syncthing.net/users/relaying.html>[/b]
   </Description>
   <Changes>
