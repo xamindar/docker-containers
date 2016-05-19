@@ -30,7 +30,6 @@
         [font size=4]2016-05-19[/font]
         - Updated Syncthing to v0.13.1
 	- Updated Discovery server to v0.13.0
-	- Enabled fixed stats file feature for Discovery server
 
 	[font size=4]2016-01-17[/font]
 	- Added changelog and date to template
