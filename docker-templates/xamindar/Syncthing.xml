@@ -2,7 +2,7 @@
 <Container>
   <Beta>False</Beta>
   <Category>Backup: Cloud:</Category>
-  <Date>2016-01-17</Date>
+  <Date>2016-05-19</Date>
   <Name>Syncthing</Name>
   <Overview>
     Syncthing replaces proprietary sync and cloud services with something open, trustworthy and decentralized. Your data is your data alone and you deserve to choose where it is stored, if it is shared with some third party and how it's transmitted over the Internet.
@@ -20,13 +20,18 @@
     [b] 22067 and 22070[/b] - relay server [span style='color: #E80000;'](be sure to add a port map for these if relay server is enabled)[/span][br]
 	By default, the syncthing service is on while the discovery and relay services are off. This is a default syncthing setup.[br][br] 
 	[b][span style='color: #E80000;']Advanced Features:[/span][/b][br]
-	To enable the discovery and/or relay servers, set the corresponding environment variables under the advanced settings to "yes". Also be sure to add the port mappings needed.[br]
+	To enable the discovery and/or relay servers, set the corresponding environment variables under the advanced settings to "yes". Also be sure to add the port mappings needed if using "Bridge" mode.[br]
 	After the docker has been started, view the log to find out the device id of the discovery/relay servers.[br]
     Discovery documentation: [b]http://docs.syncthing.net/users/discosrv.html[/b] [br]
     Relay documentation: [b]http://docs.syncthing.net/users/relaying.html[/b] [/b]
   </Description>
   <Changes>
 	[center][font size=5]Syncthing Change Log[/font][/center]
+        [font size=4]2016-05-19[/font]
+        - Updated Syncthing to v0.13.1
+	- Updated Discovery server to v0.13.0
+	- Enabled fixed stats file feature for Discovery server
+
 	[font size=4]2016-01-17[/font]
 	- Added changelog and date to template
 
