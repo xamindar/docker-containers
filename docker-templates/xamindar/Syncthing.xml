@@ -27,7 +27,12 @@
   </Description>
   <Changes>
 	[center][font size=5]Syncthing Change Log[/font][/center]
-        [font size=4]2016-05-19[/font]
+       [font size=4]2016-07-05[/font]
+        - Updated Syncthing to v0.13.10
+	- Updated Discovery server to v0.13.10
+	- Updated Relay server to v0.13.5
+
+       [font size=4]2016-05-19[/font]
         - Updated Syncthing to v0.13.1
 	- Updated Discovery server to v0.13.0
 
